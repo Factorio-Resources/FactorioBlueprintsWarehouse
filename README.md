@@ -1,8 +1,7 @@
 ![](https://img.shields.io/github/languages/code-size/Factorio-Resources/FactorioBlueprintsWarehouse?style=for-the-badge)
 ![](https://img.shields.io/github/last-commit/Factorio-Resources/FactorioBlueprintsWarehouse?style=for-the-badge)
 # 异星工场 蓝图仓库|FactorioBlueprintsWarehouse
-简体中文|[English](./README_EN.md)   
-  
+简体中文|[English](./README_EN.md)  
 **建议阅读完整的说明文件**
 ## 简介
 这是游戏[异星工场](https://www.factorio.com/)中的一个在线蓝图仓库，用于存储和分享蓝图  
