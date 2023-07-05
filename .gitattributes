@@ -1,0 +1,2 @@
+*.txt linguist-detectable=true linguist-language=text
+*.md linguist-detectable=true linguist-language=markdown
