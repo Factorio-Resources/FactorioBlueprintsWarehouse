@@ -30,10 +30,9 @@ goto git_error
 
 ::检查.git/
 if not exist ".git" (
-echo [警告] 无法找到.git文件夹 即将自动创建并进行一次clone
-echo [%time%][Warning] 未找到.git文件夹>>%LOG_PATH%
-git clone --depth 1 %repository_url%
-%git_path% init
+echo [错误] 无法找到.git文件夹
+echo [%time%][Error] 未找到.git文件夹>>%LOG_PATH%
+goto git_error
 )
 
 ::测试.git/
@@ -46,7 +45,17 @@ goto git_error
 
 ::update
 set GIT_SSL_NO_VERIFY=true
-%git_path% pull
+%GIT_PATH% pull %repository_url% master --depth 1
+if %errorlevel% NEQ 0 (
+echo [错误] 更新失败,这一般是网络波动,请尝试重新启动.无效请尝试开加速器/挂梯子
+echo [%time%][Error]  %GIT_PATH% pull origin main>>%LOG_PATH%
+goto git_error
+) else (
+echo [%time%][Information]  %GIT_PATH% pull origin main>>%LOG_PATH%
+)
+
+::压缩成蓝图书
+
 
 ::因为git导致的错误
 :git_error
