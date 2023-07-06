@@ -55,7 +55,7 @@ echo [%time%][Information]  %GIT_PATH% pull %repository_url% master --depth 1 >>
 )
 
 ::压缩成蓝图书
-
+ 
 
 ::因为git导致的错误
 :git_error
