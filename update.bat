@@ -53,7 +53,7 @@ goto git_error
 echo [%time%][Information]  %GIT_PATH% pull origin master --depth 1 >>%LOG_PATH%
 )
 
-::压缩成蓝图书
+::压缩成蓝图书 先进行
 
 
 ::因为git导致的错误
