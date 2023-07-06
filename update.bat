@@ -4,7 +4,6 @@ cd %~dp0
 
 ::初始化变量
 set version=1.0
-set repository_url=https://github.com/Factorio-Resources/FactorioBlueprintsWarehouse.git
 
 ::日志输出
 set LOG_PATH=.\update.log
@@ -45,17 +44,17 @@ goto git_error
 
 ::update
 set GIT_SSL_NO_VERIFY=true
-%GIT_PATH% pull %repository_url% master --depth 1
+%GIT_PATH% pull origin master --depth 1
 if %errorlevel% NEQ 0 (
 echo [错误] 更新失败,这一般是网络波动,请尝试重新启动.无效请尝试开加速器/挂梯子
-echo [%time%][Error] %GIT_PATH% pull %repository_url% master --depth 1 >>%LOG_PATH%
+echo [%time%][Error] %GIT_PATH% pull origin master --depth 1 >>%LOG_PATH%
 goto git_error
 ) else (
-echo [%time%][Information]  %GIT_PATH% pull %repository_url% master --depth 1 >>%LOG_PATH%
+echo [%time%][Information]  %GIT_PATH% pull origin master --depth 1 >>%LOG_PATH%
 )
 
 ::压缩成蓝图书
- 
+
 
 ::因为git导致的错误
 :git_error
