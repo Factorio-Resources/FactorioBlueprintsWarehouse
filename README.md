@@ -6,7 +6,8 @@
 **建议阅读完整的说明文件**
 ## 简介
 这是游戏[异星工场](https://www.factorio.com/)中的一个在线蓝图仓库，用于存储和分享蓝图  
->灵感源于[戴森球计划蓝图仓库](https://github.com/DSPBluePrints/FactoryBluePrints/)，如果你在玩戴森球计划的话欢迎去那边看看
+> 灵感源于[戴森球计划蓝图仓库](https://github.com/DSPBluePrints/FactoryBluePrints/)，如果你在玩戴森球计划的话欢迎去那边看看  
+> 打包蓝图书来源于[FactorioBluePrintToolkit](https://github.com/Factorio-Resources/FactorioBluePrintToolkit/)
 
 如果您想投稿蓝图,请阅读[投稿须知](#为蓝图仓库投稿)
 
@@ -26,7 +27,25 @@
 4.将蓝图仓库的蓝图书放好,此时你可以把之前版本的蓝图仓库删掉
 ***
 ## 为蓝图仓库投稿
-todo
+### 通过QQ群进行投稿
+您可以在这些QQ群给我们进行投稿蓝图/蓝图夹字符串
+> 上传的字符串的文本文件名要与你的蓝图**一致**,否则最终打包成蓝图书后蓝图名以你的文件名为准
+```
+异星工场（Mark416_） 179300472
+```
+### 通过github直接投稿
+>**需要一定的github和git的使用基础**
+
+1.创建一个fork  
+2.通过update.bat或者自行拉取蓝图仓库  
+3.更改蓝图
+> 增加的蓝图请保证为蓝图+文件夹而非蓝图书 你可以通过[FactorioBluePrintToolkit](https://github.com/Factorio-Resources/FactorioBluePrintToolkit/)将蓝图书转换成文件夹+蓝图
+> 文件夹/蓝图的名称应与实际的名称保持一致,实际打包蓝图书的时候名称以文件名为准(有符号输入不了的可以尝试换成全角)  
+> _intro_文件为它所属的文件夹的蓝图书的属性 FactorioBluePrintToolkit可以自动把属性添加到_intro_中,如果你想要直接更改请确保不会出错
+
+4.通过[FactorioBluePrintToolkit](https://github.com/Factorio-Resources/FactorioBluePrintToolkit/)或者将update.bat删除git的部分进行打包测试 确保能在游戏内成功导入  
+5.通过git push到你的fork上  
+6.提交一个pull request到主仓库中(写好你更改了什么)
 
 ***
 ## 协议
