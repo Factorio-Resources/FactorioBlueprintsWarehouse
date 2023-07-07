@@ -38,7 +38,7 @@
 >**需要一定的github和git的使用基础**
 
 1.创建一个fork  
-2.拉取你的蓝图仓库  
+2.拉取你的蓝图仓库(要先让fork同步主分支)  
 3.更改蓝图
 > 增加的蓝图请保证为蓝图+文件夹而非蓝图书 你可以通过[FactorioBluePrintToolkit](https://github.com/Factorio-Resources/FactorioBluePrintToolkit/)将蓝图书转换成文件夹+蓝图
 > 文件夹/蓝图的名称应与实际的名称保持一致,实际打包蓝图书的时候名称以文件名为准(有符号输入不了的可以尝试换成全角)  
