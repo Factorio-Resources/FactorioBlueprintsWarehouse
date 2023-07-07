@@ -7,7 +7,7 @@
 ## 简介
 这是游戏[异星工场](https://www.factorio.com/)中的一个在线蓝图仓库，用于存储和分享蓝图  
 > 灵感源于[戴森球计划蓝图仓库](https://github.com/DSPBluePrints/FactoryBluePrints/)，如果你在玩戴森球计划的话欢迎去那边看看  
-> 打包蓝图书来源于[FactorioBluePrintToolkit](https://github.com/Factorio-Resources/FactorioBluePrintToolkit/)
+> 打包蓝图书的工具来源于[FactorioBluePrintToolkit](https://github.com/Factorio-Resources/FactorioBluePrintToolkit/)
 
 如果您想投稿蓝图,请阅读[投稿须知](#为蓝图仓库投稿)
 
@@ -26,6 +26,7 @@
 3.点击游戏内右下角的导入代码并将蓝图书代码复制进去  
 4.将蓝图仓库的蓝图书放好,此时你可以把之前版本的蓝图仓库删掉
 ***
+
 ## 为蓝图仓库投稿
 ### 通过QQ群进行投稿
 您可以在这些QQ群给我们进行投稿蓝图/蓝图夹字符串
