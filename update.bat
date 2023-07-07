@@ -54,8 +54,43 @@ echo [%time%][Information]  %GIT_PATH% pull origin master --depth 1 >>%LOG_PATH%
 )
 
 ::压缩成蓝图书
+.\blueprint_conversion_app\main.exe
+echo [%time%][Information].\blueprint_conversion_app\main.exe >>%LOG_PATH%
+if %errorlevel% == 1 (
+echo [错误] 没有找到打包的文件夹 请尝试重新启动
+goto dump_error
+)
+if %errorlevel% == 2 (
+echo [错误] 在打包蓝图时出现错误 请发送update.log文件向我们进行反馈
+goto dump_error
+)
+if %errorlevel% == 3 (
+echo [错误] 在转换为蓝图书字符串时出现了错误
+goto dump_error
+)
+if %errorlevel% == 4 (
+echo [错误] 保存蓝图字符串的时候出现错误
+goto dump_error
+)
+if %errorlevel% NEQ 0 (
+echo [错误] 未知错误
+goto dump_error
+)
+goto end
 
+:end
+echo "蓝图更新完成,已经将蓝图字符串复制到你的剪切板中.现在可以在游戏内导入更新后的蓝图书"
+echo 蓝图字符串已经在packagedBlueprintBook.txt中 也可以从那里复制
+echo 现在可以安全的按任意键或直接关闭此窗口
+echo [%time%][Information] Exit>>%LOG_PATH%
+pause
+exit
 
+:dump_error
+echo 更新因打包蓝图文件夹为蓝图书时发生错误而终止
+echo [%time%][Information] Exit>>%LOG_PATH%
+pause
+exit
 
 ::因为git导致的错误
 :git_error
