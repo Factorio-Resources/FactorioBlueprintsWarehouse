@@ -13,8 +13,17 @@
 ***
 ## 蓝图仓库的使用方法
 > 如果你希望投稿蓝图,请阅读[投稿须知](#为蓝图仓库投稿)  
+### 下载
+> 已集成了Git和更新脚本,压缩蓝图软件,无需额外安装软件
 
-todo
+1.在电脑上打开github的蓝图仓库: https://github.com/Factorio-Resources/FactorioBlueprintsWarehouse/  
+2.点击 -> [Release](https://github.com/Factorio-Resources/FactorioBlueprintsWarehouse/releases/latest) <- 下载蓝图仓库的压缩包  
+3.将压缩包放置在你喜欢的地方(不推荐C盘)并进行解压
+### 使用
+1.双击解压的文件夹中的`update.bat`并等待一段时间  
+2.如果没有报错,程序将会把打包好的蓝图书添加到你的剪切板里面(也可以在蓝图仓库文件夹\packagedBlueprintBook.txt找到)  
+3.点击游戏内右下角的导入代码并将蓝图书代码复制进去  
+4.将蓝图仓库的蓝图书放好,此时你可以把之前版本的蓝图仓库删掉
 ***
 ## 为蓝图仓库投稿
 todo
