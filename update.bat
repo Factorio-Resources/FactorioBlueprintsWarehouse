@@ -44,7 +44,7 @@ goto git_error
 
 ::update
 set GIT_SSL_NO_VERIFY=true
-%GIT_PATH% pull origin master --depth 1
+%GIT_PATH% pull origin master --depth 1 --allow-unrelated-histories
 if %errorlevel% NEQ 0 (
 echo [错误] 更新失败,这一般是网络波动,请尝试重新启动.无效请尝试开加速器/挂梯子
 echo [%time%][Error] %GIT_PATH% pull origin master --depth 1 >>%LOG_PATH%
