@@ -1,0 +1,36 @@
+{
+    "item": "blueprint-book",
+    "description": "这是异星工场的蓝图仓库的打包版本  完整的使用说明请查看README.MD      仓库地址:https://github.com/Factorio-Resources/FactorioBlueprintsWarehouse",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "blueprint-book"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "lab"
+            },
+            "index": 2
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "electric-furnace"
+            },
+            "index": 3
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "artillery-turret"
+            },
+            "index": 4
+        }
+    ],
+    "active_index": 0,
+    "version": 281479276920832
+}
