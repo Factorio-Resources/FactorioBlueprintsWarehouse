@@ -1,0 +1,14 @@
+{
+    "item": "blueprint-book",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "nuclear-reactor"
+            },
+            "index": 1
+        }
+    ],
+    "active_index": 0,
+    "version": 281479276920832
+}
