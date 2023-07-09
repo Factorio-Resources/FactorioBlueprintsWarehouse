@@ -1,0 +1,35 @@
+{
+    "item": "blueprint-book",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "rail"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "big-electric-pole"
+            },
+            "index": 2
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "roboport"
+            },
+            "index": 3
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "radar"
+            },
+            "index": 4
+        }
+    ],
+    "active_index": 0,
+    "version": 281479277379584
+}

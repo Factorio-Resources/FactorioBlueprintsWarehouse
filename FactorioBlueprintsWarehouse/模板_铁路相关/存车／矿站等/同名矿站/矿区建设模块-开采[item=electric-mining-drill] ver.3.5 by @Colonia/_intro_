@@ -1,0 +1,22 @@
+{
+    "item": "blueprint-book",
+    "description": "适配车型：2拖4；默认最大车流上限：3辆；默认堆叠倍数：1",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "train-stop"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "electric-mining-drill"
+            },
+            "index": 2
+        }
+    ],
+    "active_index": 18,
+    "version": 281479277379584
+}
