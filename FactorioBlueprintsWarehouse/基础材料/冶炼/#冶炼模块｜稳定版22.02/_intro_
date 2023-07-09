@@ -1,0 +1,15 @@
+{
+    "item": "blueprint-book",
+    "description": "作者：星维[Shelter_]/苹果[Creater_Zhang].内含多种冶炼模块，整齐精确高效！覆盖初级石炉黄带到终极插件蓝带，宽松铺设到极致压缩，适应不同工作需求。//游戏1.1版本修复简化1.电线杆紊乱修复2.游戏自带F键镜像翻转",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "electric-furnace"
+            },
+            "index": 1
+        }
+    ],
+    "active_index": 0,
+    "version": 281479277379584
+}
