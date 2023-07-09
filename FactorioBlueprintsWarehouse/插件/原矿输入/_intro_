@@ -1,0 +1,35 @@
+{
+    "item": "blueprint-book",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "iron-ore"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "copper-ore"
+            },
+            "index": 2
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "speed-module-3"
+            },
+            "index": 3
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "productivity-module-3"
+            },
+            "index": 4
+        }
+    ],
+    "active_index": 0,
+    "version": 281479277379584
+}

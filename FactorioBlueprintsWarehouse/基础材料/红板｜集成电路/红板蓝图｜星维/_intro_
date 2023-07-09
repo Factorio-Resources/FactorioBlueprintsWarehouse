@@ -1,0 +1,15 @@
+{
+    "item": "blueprint-book",
+    "description": "作者：星维[Shelter_].内含多种红板产线，覆盖前后期，适应不同生产力条件和当前需求\n从星维的芯片合集中整理",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "advanced-circuit"
+            },
+            "index": 1
+        }
+    ],
+    "active_index": 0,
+    "version": 281479277379584
+}
