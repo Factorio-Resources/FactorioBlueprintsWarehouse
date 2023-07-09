@@ -1,0 +1,22 @@
+{
+    "item": "blueprint-book",
+    "description": "△1、灯的信息。\n红色：矿脉枯竭+矿站清空\n黄色：矿脉未枯竭+矿站有矿（不足一车）\n青色：矿脉未枯竭+矿站铀矿（大于一车）\n粉色：矿脉未枯竭，只是缺少流体，且矿物小于一车\n△2、变量说明\nA信号 = 满车载荷 = 6000\nI信号 = 堆叠倍数 = 1\n讯息信号 = 最大车流量 = 3\nX信号 = 硫酸需求阈值 = 2000\nY信号 = 硫酸最大倾卸阈值 = 30000\n点信号 = 枯竭延时提示信号 = 30000（tick）",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "train-stop"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "uranium-ore"
+            },
+            "index": 2
+        }
+    ],
+    "active_index": 0,
+    "version": 281479277379584
+}

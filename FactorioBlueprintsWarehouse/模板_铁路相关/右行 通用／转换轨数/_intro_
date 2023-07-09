@@ -1,0 +1,21 @@
+{
+    "item": "blueprint-book",
+    "icons": [
+        {
+            "signal": {
+                "type": "virtual",
+                "name": "signal-R"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "rail"
+            },
+            "index": 2
+        }
+    ],
+    "active_index": 0,
+    "version": 281479277379584
+}

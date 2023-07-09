@@ -1,0 +1,28 @@
+{
+    "item": "blueprint-book",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "rocket"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "explosive-rocket"
+            },
+            "index": 2
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "atomic-bomb"
+            },
+            "index": 3
+        }
+    ],
+    "active_index": 0,
+    "version": 281479277379584
+}

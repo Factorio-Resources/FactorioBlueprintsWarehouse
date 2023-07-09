@@ -1,0 +1,35 @@
+{
+    "item": "blueprint-book",
+    "icons": [
+        {
+            "signal": {
+                "type": "virtual",
+                "name": "signal-red"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "wood"
+            },
+            "index": 2
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "raw-fish"
+            },
+            "index": 3
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "used-up-uranium-fuel-cell"
+            },
+            "index": 4
+        }
+    ],
+    "active_index": 0,
+    "version": 281479277379584
+}

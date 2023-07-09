@@ -1,0 +1,35 @@
+{
+    "item": "blueprint-book",
+    "icons": [
+        {
+            "signal": {
+                "type": "virtual",
+                "name": "signal-S"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "virtual",
+                "name": "signal-E"
+            },
+            "index": 2
+        },
+        {
+            "signal": {
+                "type": "virtual",
+                "name": "signal-A"
+            },
+            "index": 3
+        },
+        {
+            "signal": {
+                "type": "virtual",
+                "name": "signal-S"
+            },
+            "index": 4
+        }
+    ],
+    "active_index": 0,
+    "version": 281479277379584
+}

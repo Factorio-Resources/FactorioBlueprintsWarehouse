@@ -1,0 +1,36 @@
+{
+    "item": "blueprint-book",
+    "description": "基于同名车站的饱和式供给枯竭检测型矿物开采站的开发原型",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "train-stop"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "constant-combinator"
+            },
+            "index": 2
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "decider-combinator"
+            },
+            "index": 3
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "arithmetic-combinator"
+            },
+            "index": 4
+        }
+    ],
+    "active_index": 3,
+    "version": 281479277379584
+}

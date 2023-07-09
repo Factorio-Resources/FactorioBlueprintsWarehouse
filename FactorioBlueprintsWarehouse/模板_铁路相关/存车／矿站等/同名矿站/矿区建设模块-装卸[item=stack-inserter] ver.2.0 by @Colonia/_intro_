@@ -1,0 +1,22 @@
+{
+    "item": "blueprint-book",
+    "description": "适配车型：2拖4",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "train-stop"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "stack-inserter"
+            },
+            "index": 2
+        }
+    ],
+    "active_index": 9,
+    "version": 281479277379584
+}
