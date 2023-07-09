@@ -1,0 +1,35 @@
+{
+    "item": "blueprint-book",
+    "icons": [
+        {
+            "signal": {
+                "type": "item",
+                "name": "logistic-robot"
+            },
+            "index": 1
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "spidertron"
+            },
+            "index": 2
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "locomotive"
+            },
+            "index": 3
+        },
+        {
+            "signal": {
+                "type": "item",
+                "name": "tank"
+            },
+            "index": 4
+        }
+    ],
+    "active_index": 0,
+    "version": 281479277379584
+}

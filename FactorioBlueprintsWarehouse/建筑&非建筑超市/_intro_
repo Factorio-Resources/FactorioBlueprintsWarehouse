@@ -11,14 +11,14 @@
         {
             "signal": {
                 "type": "item",
-                "name": "electric-furnace"
+                "name": "spidertron"
             },
             "index": 2
         },
         {
             "signal": {
                 "type": "item",
-                "name": "lab"
+                "name": "construction-robot"
             },
             "index": 3
         },
