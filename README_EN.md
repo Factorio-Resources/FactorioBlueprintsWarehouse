@@ -25,6 +25,7 @@ If you want to submit a blueprint, please read the [Submission Guidelines](#subm
 
 ### Usage
 > If the text instructions are not clear, you can [watch the video](https://www.bilibili.com/video/BV17m4y1E7tX/).
+> 
 1. Double-click on the `update.bat` file in the extracted folder and wait for some time.  
 2. If no errors occur, the program will add the packaged blueprint book to your clipboard (you can also find it in the blueprint repository folder named \packagedBlueprintBook.txt).  
 3. Click on "Import Blueprint" in the bottom right corner of the game and paste the blueprint book code.    
