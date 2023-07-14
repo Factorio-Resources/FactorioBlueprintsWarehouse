@@ -24,7 +24,6 @@ If you want to submit a blueprint, please read the [Submission Guidelines](#subm
 3. Place the downloaded compressed package in a location of your choice (not recommended on the C drive) and extract its contents.
 
 ### Usage
-<<<<<<< HEAD
 =======
 > If the text instructions are not clear, you can [watch the video](https://www.bilibili.com/video/BV17m4y1E7tX/).
 > 
