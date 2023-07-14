@@ -21,8 +21,11 @@
 2.点击 -> [Release](https://github.com/Factorio-Resources/FactorioBlueprintsWarehouse/releases/latest) <- 下载蓝图仓库的压缩包  
 3.将压缩包放置在你喜欢的地方(不推荐C盘)并进行解压
 ### 使用
+<<<<<<< HEAD
+=======
 > 如果文字说明看不明白,可以[观看视频](https://www.bilibili.com/video/BV17m4y1E7tX/)
 
+>>>>>>> 0341381ef5c129d51cdf8fa64e5e9e3a01d48912
 1.双击解压的文件夹中的`update.bat`并等待一段时间  
 2.如果没有报错,程序将会把打包好的蓝图书添加到你的剪切板里面(也可以在蓝图仓库文件夹\packagedBlueprintBook.txt找到)  
 3.点击游戏内右下角的导入代码并将蓝图书代码复制进去  

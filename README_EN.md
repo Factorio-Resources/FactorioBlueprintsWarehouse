@@ -24,8 +24,11 @@ If you want to submit a blueprint, please read the [Submission Guidelines](#subm
 3. Place the downloaded compressed package in a location of your choice (not recommended on the C drive) and extract its contents.
 
 ### Usage
+<<<<<<< HEAD
+=======
 > If the text instructions are not clear, you can [watch the video](https://www.bilibili.com/video/BV17m4y1E7tX/).
 > 
+>>>>>>> 0341381ef5c129d51cdf8fa64e5e9e3a01d48912
 1. Double-click on the `update.bat` file in the extracted folder and wait for some time.  
 2. If no errors occur, the program will add the packaged blueprint book to your clipboard (you can also find it in the blueprint repository folder named \packagedBlueprintBook.txt).  
 3. Click on "Import Blueprint" in the bottom right corner of the game and paste the blueprint book code.    
@@ -56,4 +59,8 @@ You can submit your blueprints/blueprint strings to us through these QQ groups:
 *** 
 ## License
 * If the blueprint author has specified a license for their blueprints, the use of those blueprints is subject to the terms of the license as specified by the blueprint author.  
+<<<<<<< HEAD
 * If no specific license is specified, all blueprints and other files in the blueprint repository are subject to the default license: [**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
+=======
+* If no specific license is specified, all blueprints and other files in the blueprint repository are subject to the default license: [**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
+>>>>>>> 0341381ef5c129d51cdf8fa64e5e9e3a01d48912
